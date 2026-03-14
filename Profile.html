@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile </title>
+    <style>
+        .grid-container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas: "header header header"
+    "sidebar content1 content2"
+    "footer footer footer";
+}
+
+.header{
+    grid-area: header;
+    background-color: aqua;
+    padding: 30px;
+    height: 5px;
+    text-align: center;
+    text-decoration:solid;
+    font-weight: 400;
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: beige;
+    padding: 10px;
+    height: 600px;
+}
+
+.content1{
+    grid-area: content1;
+    background-color: rgb(152, 187, 187);
+    padding: 10px;
+    height: 600px;
+}
+
+.content2{
+    grid-area: content2;
+    background-color: whitesmoke;
+    padding: 10px;
+    height: 600px;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #006666;
+    padding: 20px;
+    height: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <div class="grid-container">
+    <div class="header"> Channel Your Doctor</div>
+    <div class="sidebar"> 
+        <img src="./image3.jpg" alt="Profile" />
+        <h1>Dr.M.H.A.Silva</h1>
+        <h2>Cardiologist</h2>
+        <h3>MBBS(University Of Colombo)</h3>
+        <h4>Heart specialist with 10+ years of experience.</h4>
+        <h4>Contact details</h4>
+          <ol style="list-style-type: disc;">
+            <li>Mobile no:+94 779 596 420(WhatsApp)</li>
+            <li>Email:mohansilva@email.com</li>
+            <li>Facebook:mohan@facebook.com</li>
+            <li>Twitter:manuradha@twitter.com</li>
+        </ol>
+    </div>
+    <div class="content1"> 
+        <img src="./image.png" alt="Profile" />
+        <h1>Dr.P.S.M.Gunawardana</h1>
+        <h2>Dematologist</h2>
+        <h3>MBBS(University Of Colombo)</h3>
+        <h4>Expert in treating skin diseases.</h4>
+        <h4>Contact details</h4>
+          <ol style="list-style-type: disc;">
+            <li>Mobile no:+94 773 627 429(WhatsApp)</li>
+            <li>Email:manurangagunawardana@email.com</li>
+            <li>Facebook:manuranga@facebook.com</li>
+            <li>Twitter:gunawardanamanu@twitter.com</li>
+        </ol>
+    </div>
+    <div class="content2"> 
+      <img src="./image copy.png" alt="Profile"/>
+        <h1>Dr.S.M.J.Fernando</h1>
+        <h2>Pediatrician</h2>
+        <h3>MBBS(University Of Peradeniya)</h3>
+        <h4>Child specialist providing the best care.</h4>
+        <h4>Contact details</h4>
+          <ol style="list-style-type: disc;" >
+            <li>Mobile no:+94 762 166 534(WhatsApp)</li>
+            <li>Email:sunilfernando@email.com</li>
+            <li>Facebook:sfernando@facebook.com</li>
+            <li>Twitter:sunil@twitter.com</li>
+        </ol>  
+    </div>
+    <div class="footer">&copy;2026 MediCare+</div>
+   </div>
+</div>
+</body>
+</html>

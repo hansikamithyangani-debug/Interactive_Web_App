@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="./Payment.css">
+</head>
+<body>
+  <div class="payment-container">
+  <h2>Payment Form</h2>
+  <form id="paymentForm">
+    <input type="text" id="name" placeholder="Full Name" required>
+    <input type="email" id="email" placeholder="Email Address" required>
+    <input type="number" id="amount" placeholder="Amount (USD)" required min="1">
+    
+    <select id="paymentMethod" required>
+      <option value="">Select Payment Method</option>
+      <option value="credit">Credit / Debit Card</option>
+      <option value="paypal">PayPal</option>
+      <option value="razorpay">Razorpay</option>
+    </select>
+    
+    <button type="submit">Pay Now</button>
+    <button type="reset">Cancel</button>
+  </form>
+  <div class="success-message" id="successMessage">
+    Payment Successful! ✅
+  </div>
+</div>
+
+<script src="./Payment.js"></script>
+</body>
+</html>
