@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    </head>
+    <body>
+       <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+         <img src="./images/medicare (1).png " alt="" width="40" height="50" class="d-inline-block align-text-top">
+        <a href="./index1.php">MediCare+</a>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="./index.php">Home</a></li>
+      <li><a href="./about.php">About</a></li>
+      <li><a href="./appointment.php">Add appointment</a></li>
+      <li><a href="./appointments.php">View appoinments</a></li>
+      <li><a href="./Contact.php">Contact</a></li>
+    </ul>
+
+    <a href="./index1.php" class="btn-primary ">Get Started</a>
+  </nav>
+<div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" style="width: 100w; margin-left: calc(-50vw + 50%);">
+  <div class="carousel-inner" >
+    <div class="carousel-item active  h-100">
+      <img src="./images/carousel 1.jpg" class="d-block w-100 " alt="..." style="object-fit: cover;">
+      <div class="carousel-caption">
+              <span class="badge " style="font-size: x-large;font-family: Arial, Helvetica, sans-serif;color: black;">💊 Digital Healthcare Solutions</span>
+
+      <h1 style="color: brown;font-variant: initial;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        Not Just Care,<br>
+        <span>Curated Care</span>
+      </h1>
+      <p style="font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: 700;font-style: inherit;color: black">
+        Sri Lanka's first digital health platform focused on preventive and follow-up care.
+        We deliver trusted medical advice through personalized consultations — anytime, anywhere.
+      </p>
+
+      <div class="hero-buttons">
+        
+        <a href="./Services.php" class="btn-outline">Explore Services</a>
+      </div>
+      
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/carousel2.jpg" class="d-block w-100 " alt="..." style="object-fit: cover;">
+      <div class="carousel-caption">
+              <span class="badge " style="font-size: x-large;font-family: Arial, Helvetica, sans-serif;color: black;">💊 Digital Healthcare Solutions</span>
+
+      <h1 style="color: brown;font-variant: initial;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        Not Just Care,<br>
+        <span>Curated Care</span>
+      </h1>
+      <p style="font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: 700;font-style: inherit;color: black;">
+        Sri Lanka's first digital health platform focused on preventive and follow-up care.
+        We deliver trusted medical advice through personalized consultations — anytime, anywhere.
+      </p>
+
+      <div class="hero-buttons">
+        
+        <a href="./Services.php" class="btn-outline">Explore Services</a>
+      </div>
+      
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/carousel3.jpg" class="d-block w-100" alt="..." style="object-fit: cover;">
+      <div class="carousel-caption">
+              <span class="badge " style="font-size: x-large;font-family: Arial, Helvetica, sans-serif;color: black;">💊 Digital Healthcare Solutions</span>
+
+      <h1 style="color: brown;font-variant: initial;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        Not Just Care,<br>
+        <span>Curated Care</span>
+      </h1>
+      <p style="font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: 700;font-style: inherit;color: rgb(0, 0, 0);">
+        Sri Lanka's first digital health platform focused on preventive and follow-up care.
+        We deliver trusted medical advice through personalized consultations — anytime, anywhere.
+      </p>
+
+      <div class="hero-buttons">
+        
+        <a href="./Services.php" class="btn-outline">Explore Services</a>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  
+
+</div>
+
+      
+
+      
+  <footer>
+    &copy; 2026 MediCare+
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    </body>
+</html>

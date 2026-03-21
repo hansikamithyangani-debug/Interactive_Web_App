@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>User Registration</h1>
+</header>
+
+<section class="form-box">
+    <label>Full Name</label>
+    <input type="text" id="name">
+
+    <label>Email</label>
+    <input type="email" id="email">
+
+    <label>Password</label>
+    <input type="password" id="password">
+
+    <button onclick="signup()">Sign Up</button>
+    <button type="reset">Cancel</button>
+
+    <p id="msg"></p>
+    <p>Already have an account? <a href="./login.php">Login</a></p>
+</section>
+<p id="successMsg" style="display:none; color: green; font-weight: bold;">
+    Registration successful!
+</p>
+<script src="./js/app.js"></script>
+</body>
+</html>

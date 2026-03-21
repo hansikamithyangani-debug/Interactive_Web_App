@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Slots</title>
+    <link rel="stylesheet" href="./css/Timeslots.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+    
+</body>
+</html>
+<table class="table table-success table-striped-columns table-hover table-bordered border-primary">
+
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">Doctor ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Specialized In</th>
+      <th scope="col">Day</th>
+      <th scope="col">Time</th>
+    </tr>
+  </thead>
+
+  <tbody class="table-group-divider">
+
+    <tr>
+      <th scope="row">1</th>
+      <td>Dr. M.H.A. Silva</td>
+      <td>Cardiologist</td>
+      <td>
+        Monday <br>
+        Tuesday <br>
+        Friday
+      </td>
+      <td>
+        8.00 AM - 11.00 AM <br>
+        9.00 AM - 11.00 AM <br>
+        10.00 AM - 12.00 PM
+      </td>
+    </tr>
+
+    <tr>
+      <th scope="row">2</th>
+      <td>Dr.P.S.M.Gunawardana</td>
+      <td>Dematologist</td>
+      <td>
+        Wednesday <br>
+        Thursday <br>
+        Saturday
+      </td>
+      <td>
+        8.30 AM - 11.30 AM <br>
+        9.30 AM - 12.00 PM <br>
+        10.00 AM - 1.00 PM
+      </td>
+    </tr>
+
+    <tr>
+      <th scope="row">3</th>
+      <td>Dr. S.M.J. Fernando</td>
+      <td>Pediatrician</td>
+      <td>
+        Monday <br>
+        Thursday <br>
+        Saturday
+      </td>
+      <td>
+        9.00 AM - 12.00 PM <br>
+        10.00 AM - 1.00 PM <br>
+        2.00 PM - 5.00 PM
+      </td>
+    </tr>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  </tbody>
+</table>

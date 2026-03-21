@@ -1,0 +1,345 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #92bce6;
+}
+
+header {
+    background: #006666;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container-fluid h1 {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(17, 122, 3);
+    margin: auto;
+}
+
+nav a {
+    color: rgba(0, 37, 58, 0.76);
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.hero {
+    padding: 100px;
+    text-align: center;
+    background: #e0f2f1;
+    height: 500px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cards .card {
+    background: rgb(182, 243, 163);
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #aaa;
+    text-align: center;
+    height: 250px;
+}
+
+.form-box {
+    background: white;
+    width: 320px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: #009999;
+}
+
+.table-box table {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #006666;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-danger {
+    background: #cc0000;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.notification {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    background-color: #28a745;
+    color: #fff;
+    padding: 14px 22px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.welcome-alert {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #52ce2c;
+    color: #fff;
+    padding: 16px 28px;
+    border-radius: 6px;
+    font-size: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    z-index: 1000;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #a9c0bb;
+    padding: 10px 20px;
+}
+
+.navbar .logo a {
+    color: #006666;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #0d1ca0;
+    padding: 5px;
+    font-size: medium;
+    white-space: nowrap;
+}
+
+.nav-links li a:hover {
+    color: #009999;
+}
+
+/* Buttons */
+.btn-primary {
+    border-radius: 17px;
+    color: #006666;
+    background-color: #2792e9;
+    width: 147px;
+    height: 50px;
+    font-size: large;
+    border: 2px solid #8bb174;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary:hover {
+    color: wheat;
+}
+
+.btn-outline {
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #2c7be5, #00c6ff);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.btn-outline:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+    background: linear-gradient(135deg, #1b6edc, #00a6ff);
+    color: wheat;
+}
+
+/* Carousel Styles */
+#carouselExampleRide {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20%;
+    left: 15%;
+    z-index: 10;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Hero section */
+.hero-image {
+    padding-top: 70px;
+}
+
+/* Hamburger Menu */
+.menu-btn {
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 15px;
+    display: none;
+}
+
+.menu-btn span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: black;
+    margin: 5px 0;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: rgb(164, 230, 164);
+    padding-top: 60px;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a:hover {
+    background: #ddd;
+}
+
+.sidebar.show {
+    left: 0;
+}
+
+/* Container fixes */
+.container {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .carousel-inner img {
+        height: 60vh;
+    }
+    
+    .sidebar {
+        width: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .menu-btn {
+        display: block;
+    }
+    
+    .navbar {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-inner img {
+        height: 40vh;
+    }
+    
+    .sidebar {
+        width: 200px;
+    }
+    
+    .navbar .logo a {
+        font-size: large;
+    }
+    
+    .btn-primary {
+        width: 120px;
+        height: 40px;
+        font-size: medium;
+    }
+}
